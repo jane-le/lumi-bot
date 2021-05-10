@@ -8,6 +8,7 @@ import time
 import json
 import logging
 import constants
+from datetime import datetime
 
 env_path = Path('.') / '.env'
 load_dotenv(dotenv_path=env_path)

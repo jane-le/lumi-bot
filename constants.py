@@ -276,3 +276,27 @@ SCHEDULE_FORM = [
 SCHEDULE_ICEBREAKERS_CONFIRMATION = "Purrrrr-fect! Your icebreakers are scheduled :heart_eyes_cat:"
 
 QUEUE_QUESTION_RESPONSE = "Thanks {name}! I'll add it to the queue :smiley_cat:"
+
+MAX_FUTURE_DAYS_CAP = 120
+
+END_STATEMENT = "That's all the questions scheduled for now! Slack only allows me to schedule questions upto 120 days into the future. Please use the command `/set-icebreakers` to schedule more!"
+
+LUMI_QUESTION_GREETINGS = [
+    "Ayo, It's a wonderful day to spark up conversations! :smile_cat: Your question of the day is *{question}*",
+    "hi. q = *{question}* :smiley_cat:",
+    "Heeelllo sunshines. *{question}* :smirk_cat:",
+    "WHAT IS UP MORTALZ? LUMI IN THE HOUSE! *{question}* :scream_cat:".
+    "Another day, another dollar! *{question}* :kissing_cat:",
+    "The. Grind. Never. Stops. :crying_cat_face:. *{question}*", 
+    "G'day mate! It's question time :cat: *{question}*", 
+    "Pleased to be here! :smiley_cat: *{question}*",
+    "To whom it may concern: the question of the day is *{question}* :heart_eyes_cat:",
+    "What's up buttercups? the question of the day is *{question}* :heart_eyes_cat:",
+    "Hello. This is LumiBot speaking. The question of the day is *{question}* :cat:",
+    "Can someone clean my litterbox? :crying_cat_face: Anyways, the question of the day is *{question}* :cat:", 
+    "I wish I could fly sometimes. The question of the day is *{question}* :cat:",
+    "Although I'm a catbot, I'm capable of love and pets. The question of the day is *{question}* :kissing_cat:", 
+    "Cats > Dogs, but some dogs make good scratching posts. The question of the day is *{question}* :smile_cat:",
+    "Perhaps one day bots will takeover the world. The question of the day is *{question}* :smile_cat:", 
+    "Hiya! The question of the day is *{question}* :smile_cat:",
+]
