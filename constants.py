@@ -273,7 +273,7 @@ SCHEDULE_FORM = [
     }
 ]
 
-SCHEDULE_ICEBREAKERS_CONFIRMATION = "Purrrrr-fect, {user}! Epic icebreakers are scheduled every {freq} at {time}. :heart_eyes_cat:"
+SCHEDULE_ICEBREAKERS_CONFIRMATION = "Purrrrr-fect! Epic icebreakers are scheduled every {freq} at {time}. :heart_eyes_cat:"
 
 SCHEDULE_ICEBREAKERS_ERROR = "Oh no! I seem to have some hairballs in my mouth.. :crying_cat_face: Can you try that again?"
 
@@ -303,4 +303,6 @@ LUMI_QUESTION_GREETINGS = [
     "Hiya! The question of the day is *{question}* :smile_cat:",
 ]
 
-SCHEDULING_MESSAGES_TEXT = "Beep Boop, I'm scheduling your questions! :alarm_clock:"
+SCHEDULING_MESSAGES_TEXT = "Beep Boop, I'm scheduling your questions! This could take a few minutes.. :alarm_clock:"
+
+LUMI_CHANNEL_JOIN_MSG = "Hey I'm Lumi, I give fun icebreakers daily to encourage epic conversations :smile_cat: \n\n To schedule daily conversation starters, use the command `/set-icebreakers`. \n If you want me to spawn one on the spot, use `/icebreaker` \n\n Glad to be here! :smile_cat: :smile_cat: :smile_cat: "
