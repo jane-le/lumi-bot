@@ -2,7 +2,7 @@
 
 I'm a slack bot that gives fun icebreakers daily to encourage meowtastic conversations :smile_cat:. I could be used for casual channel chats, added spice to daily stand-ups, or single time greetings! 
 
-![image](https://user-images.githubusercontent.com/29788614/117940413-0a923980-b2d7-11eb-91e0-e5075d9bf0fc.png)
+![image](https://user-images.githubusercontent.com/29788614/118055489-33a5df00-b356-11eb-868d-72be65a1e6a3.png)
 
 I'm built with SlackAPI & Flask.
 
