@@ -1,6 +1,6 @@
 # Lumi Bot 🐱
 
-I'm a slack bot that gives fun icebreakers daily to encourage epic conversations :smile_cat:
+I'm a slack bot that gives fun icebreakers daily to encourage meowtastic conversations :smile_cat:. I could be used for casual channel chats, added spice to daily stand-ups, or single time greetings! 
 
 ![image](https://user-images.githubusercontent.com/29788614/117940413-0a923980-b2d7-11eb-91e0-e5075d9bf0fc.png)
 
