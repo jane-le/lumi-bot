@@ -24,14 +24,6 @@ freq = "day"
 set_time = "0"
 schedule_in_progs = False
 
-@slack_event_adapter.on('member_joined_channel')
-def welcome_msg(payload):
-    event = payload.get('event', {})
-    channel_id = event.get('channel')
-    print(payload)
-    print("IM IN")
-    client.chat_postMessage(channel=channel_id, text=constants.LUMI_CHANNEL_JOIN_MSG)
-
 @slack_event_adapter.on('message')
 def message(payload):
     global set_time
@@ -39,7 +31,7 @@ def message(payload):
     global schedule_in_progs
     event = payload.get('event', {})
     channel_id = event.get('channel')
-    print(payload)
+
     if (event.get('text') == constants.SCHEDULING_MESSAGES_TEXT and not schedule_in_progs ):
         print("hello")
         schedule_icebreakers(channel_id=channel_id)
