@@ -273,9 +273,11 @@ SCHEDULE_FORM = [
     }
 ]
 
-SCHEDULE_ICEBREAKERS_CONFIRMATION = "Purrrrr-fect! Your icebreakers are scheduled :heart_eyes_cat:"
+SCHEDULE_ICEBREAKERS_CONFIRMATION = "Purrrrr-fect, {user}! Epic icebreakers are scheduled every {freq} at {time}. :heart_eyes_cat:"
 
-QUEUE_QUESTION_RESPONSE = "Thanks {name}! I'll add it to the queue :smiley_cat:"
+SCHEDULE_ICEBREAKERS_ERROR = "Oh no! I seem to have some hairballs in my mouth.. :crying_cat_face: Can you try that again?"
+
+QUEUE_QUESTION_RESPONSE = "Thanks {name}! I'll show your question tomorrow! :smiley_cat:"
 
 MAX_FUTURE_DAYS_CAP = 120
 
@@ -285,7 +287,7 @@ LUMI_QUESTION_GREETINGS = [
     "Ayo, It's a wonderful day to spark up conversations! :smile_cat: Your question of the day is *{question}*",
     "hi. q = *{question}* :smiley_cat:",
     "Heeelllo sunshines. *{question}* :smirk_cat:",
-    "WHAT IS UP MORTALZ? LUMI IN THE HOUSE! *{question}* :scream_cat:".
+    "WHAT IS UP MORTALZ? LUMI IN THE HOUSE! *{question}* :scream_cat:",
     "Another day, another dollar! *{question}* :kissing_cat:",
     "The. Grind. Never. Stops. :crying_cat_face:. *{question}*", 
     "G'day mate! It's question time :cat: *{question}*", 
@@ -300,3 +302,5 @@ LUMI_QUESTION_GREETINGS = [
     "Perhaps one day bots will takeover the world. The question of the day is *{question}* :smile_cat:", 
     "Hiya! The question of the day is *{question}* :smile_cat:",
 ]
+
+SCHEDULING_MESSAGES_TEXT = "Beep Boop, I'm scheduling your questions! :alarm_clock:"
