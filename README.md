@@ -15,7 +15,8 @@ To schedule daily conversation starters, use the command `/set-icebreakers`.
 
 ## Spawn a fun conversation starter!
 To spawn one on the spot, use command `/icebreaker`.
-Examples of some more fun icebreakers: 
+
+Examples of some more fun icebreakers while you're here :): 
 ![image](https://user-images.githubusercontent.com/29788614/117941224-e125dd80-b2d7-11eb-8411-d31ca1f0b647.png)
 ![image](https://user-images.githubusercontent.com/29788614/117941308-f995f800-b2d7-11eb-9838-99bf98fab60c.png)
 ![image](https://user-images.githubusercontent.com/29788614/117941361-04508d00-b2d8-11eb-87bc-13f81e7279cb.png)
